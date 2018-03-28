@@ -20,9 +20,9 @@ import java.util.Date;
 @SuppressWarnings("unchecked")
 public class CreateModel
 {
-	 private String packageOutPath = "com.hello.model";//指定实体生成所在包的路径  
+	 private String packageOutPath = "com.login.model";//指定实体生成所在包的路径  
 	    private String authorName = "wyd";//作者名字  
-	    private String tablename = "oz_user";//表名  
+	    private String tablename = "A_USER";//表名  
 	    private String[] colnames; // 列名数组  
 	    private String[] colTypes; //列名类型数组  
 	    private String[] remarks;//列注释
@@ -31,9 +31,9 @@ public class CreateModel
 	    private boolean f_sql = false; // 是否需要导入包java.sql.*  
 	      
 	    //数据库连接  
-	    private static final String URL ="jdbc:mysql://localhost:3306/Daily";  
+	    private static final String URL ="jdbc:mysql://140.143.236.105:3306/Daily_Test";  
 	    private static final String NAME = "root";  
-	    private static final String PASS = "123456";  
+	    private static final String PASS = "1thisismypwd";  
 	    private static final String DRIVER ="com.mysql.jdbc.Driver";  
 	  
 	    /* 

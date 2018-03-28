@@ -1,4 +1,4 @@
-package com.hello.util;
+package com.login.util;
 
 import java.sql.*;;
 public class DB {

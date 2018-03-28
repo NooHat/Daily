@@ -1,6 +1,6 @@
-package com.hello.model;
+package com.login.model;
 
-import base.BaseModel;
+import base.model.BaseModel;
 
    /**
     * oz_user 实体类
